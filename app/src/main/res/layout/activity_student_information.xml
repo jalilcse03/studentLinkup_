@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.azharul.android.sids.StudentInformationActivity"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Student"
+        android:onClick="AddStudent"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent"
+            android:hint="Search Here"
+            android:id="@+id/editTextSearch"
+            android:singleLine="true"
+            android:textSize="13sp"/>
+        <Spinner
+            android:id="@+id/spinItem"
+            android:layout_width="0dp"
+            android:layout_weight=".8"
+            android:layout_height="match_parent"
+            android:entries="@array/BY"/>
+        <Button
+            android:layout_width="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:layout_weight=".8"
+            android:layout_height="match_parent"
+            android:text="Search"
+            android:onClick="ButtonSearch"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <ListView
+        android:id="@+id/listViewStudentList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

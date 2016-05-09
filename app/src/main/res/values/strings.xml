@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Student Linkup</string>
+    <string name="app_form">Student Form</string>
+    <string name="app_List">Student List and search</string>
+    <string name="app_student">Student Information</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Dep_code">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+    </string-array>
+
+    <string-array name="BY">
+        <item>Select</item>
+        <item>By Student ID</item>
+        <item>By Student Name</item>
+        <item>By Dept</item>
+        <item>By Weaver</item>
+        <item>By Balance</item>
+        <item>By E-mail</item>
+        <item>By Cell-Phone</item>
+    </string-array>
+
+    <!-- blood group -->
+    <string-array name="bloodGroup_combo">
+        <item>O+</item>
+        <item>O–</item>
+        <item>A+</item>
+        <item>A–</item>
+        <item>B+</item>
+        <item>B–</item>
+        <item>AB+</item>
+        <item>AB–</item>
+    </string-array>
+
+</resources>
